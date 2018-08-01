@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <title>HangMan Demo</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Hangman</h1>
+
+            <hr class="my-4">
+            <p>--------------Instructions-----------</p>
+
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">word to guess</h3>
+                <hr>
+            </div>
+            <div class="card-body">
+                <h2>_ _ _ _ _ _ </h2>>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                Letters Guess: <span id="wrongGuesses"></span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                   Guesses Left: <span id="numGuesses">9</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                Win Counter: <span id="winCounter">0</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                Loss Counter: <span id="lossCounter">0</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
